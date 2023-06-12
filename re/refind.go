@@ -10,7 +10,7 @@ func FindList(str, rule string) []string {
 	return compileRegex[1:]
 }
 
-// 匹配，直接获取
+// 匹配,直接获取
 func FindString(str, rule string) string {
 	compileRegex := regexp.MustCompile(rule).FindString(str)
 	return compileRegex
