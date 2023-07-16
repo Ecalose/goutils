@@ -14,6 +14,15 @@ func PwdRange(min, max int) string {
 	}
 	return string(letter)
 }
+func NumRange(min, max int) string {
+	n := rand.Intn(max-min) + min
+	charset := "0123456789"
+	letter := make([]byte, n)
+	for i := range letter {
+		letter[i] = charset[rand.Intn(len(charset))]
+	}
+	return string(letter)
+}
 func NumRangeString(min, max int) string {
 	num := rand.Intn(max-min+1) + min
 	return strconv.Itoa(num)
