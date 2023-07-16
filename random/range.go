@@ -18,6 +18,7 @@ func NumRangeString(min, max int) string {
 	num := rand.Intn(max-min+1) + min
 	return strconv.Itoa(num)
 }
+// int
 func NumRangeInt(min, max int) int {
 	num := rand.Intn(max-min+1) + min
 	return num
