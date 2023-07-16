@@ -5,6 +5,7 @@ go 1.20
 require (
 	github.com/gogf/gf/v2 v2.4.4
 	github.com/imroc/req/v3 v3.37.1
+	github.com/tidwall/gjson v1.14.4
 )
 
 require (
@@ -27,6 +28,8 @@ require (
 	github.com/quic-go/qtls-go1-20 v0.2.2 // indirect
 	github.com/quic-go/quic-go v0.35.1 // indirect
 	github.com/refraction-networking/utls v1.3.2 // indirect
+	github.com/tidwall/match v1.1.1 // indirect
+	github.com/tidwall/pretty v1.2.0 // indirect
 	go.opentelemetry.io/otel v1.7.0 // indirect
 	go.opentelemetry.io/otel/trace v1.7.0 // indirect
 	golang.org/x/crypto v0.10.0 // indirect
