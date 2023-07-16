@@ -1,5 +1,6 @@
 package reqw
 
+// from "https://req.cool/zh/docs/tutorial/handle-response/"
 import (
 	"github.com/imroc/req/v3"
 	"github.com/tidwall/gjson"
